@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hubungi saya untuk proyek baru atau kolaborasi">
+    <title>Kontak - Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-code"></i>
+                    <span>Portofolio</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">Tentang Saya</a></li>
+                    <li><a href="portofolio.html" class="nav-link">Portofolio</a></li>
+                    <li><a href="contact.html" class="nav-link active">Kontak</a></li>
+                </ul>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+        <div class="nav-overlay" id="navOverlay"></div>
+    </header>
+
+    <main>
+        <!-- Contact Header -->
+        <section class="contact-header">
+            <div class="contact-header-container">
+                <h1 class="page-title">Hubungi Saya</h1>
+                <p class="page-subtitle">Ada pertanyaan atau ide proyek? Jangan ragu untuk menghubungi saya. Saya akan merespon secepat mungkin.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="contact-container">
+                <!-- Left: Contact Info -->
+                <div class="contact-info">
+                    <h2>Informasi Kontak</h2>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:khamilatulkhoiriyah10@gmail.com">khamilatulkhoiriyah10@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Telepon</h3>
+                            <p><a href="tel:+6285730654656">0857-3065-4656</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>WhatsApp</h3>
+                            <p><a href="https://wa.me/6285730654656?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20portofolio%20Anda" target="_blank" rel="noopener">Chat via WhatsApp</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Lokasi</h3>
+                            <p>Surabaya, Indonesia</p>
+                        </div>
+                    </div>
+
+                    <!-- Social Media -->
+                    <div class="social-section">
+                        <h3>Ikuti Saya</h3>
+                        <div class="social-buttons">
+                            <a href="https://github.com" target="_blank" class="social-btn">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" class="social-btn">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://instagram.com/mmilmilatul_" target="_blank" class="social-btn">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Kirim Pesan</h2>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required placeholder="Masukkan nama Anda">
+                            <span class="form-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Masukkan email Anda">
+                            <span class="form-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Topik pesan">
+                            <span class="form-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tulis pesan Anda di sini..."></textarea>
+                            <span class="form-error"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Kirim Pesan</span>
+                        </button>
+                    </form>
+
+                    <!-- Success Message -->
+                    <div id="successMessage" class="success-message hidden">
+                        <div class="success-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <p>Terima kasih! Pesan Anda telah dikirim. Saya akan merespon segera.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 Portofolio Saya</p>
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://instagram.com/mmilmilatul_" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tentang saya">
+    <title>Tentang Saya - Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-code"></i>
+                    <span>Portofolio</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link active">Tentang Saya</a></li>
+                    <li><a href="portofolio.html" class="nav-link">Portofolio</a></li>
+                    <li><a href="contact.html" class="nav-link">Kontak</a></li>
+                </ul>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+        <div class="nav-overlay" id="navOverlay"></div>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section class="about-page">
+            <div class="about-container">
+                <!-- Left: Image -->
+                <div class="about-image-section">
+                    <div class="about-image-wrapper">
+                        <img src="assets/images/fotomilaaa.jpg" alt="Tentang Saya">
+                       
+                    </div>
+                </div>
+
+                <!-- Right: Content -->
+                <div class="about-content-section">
+                    <h1 class="page-title">Tentang Saya</h1>
+
+                    <h2 class="subtitle">Full Stack WEB Developer</h2>
+
+                    <p class="about-text">
+                        Saya adalah lulusan Teknik Informatika 2026 dengan ketertarikan di bidang web development,
+                        khususnya sebagai Full Stack WEB Development. Passion saya adalah menciptakan solusi digital yang
+                        tidak hanya fungsional, tetapi juga efisien dan user-friendly.
+                    </p>
+
+                    <p class="about-text">
+                        Saya memiliki keahlian dalam berbagai teknologi seperti HTML, CSS, JavaScript, MySQL, serta framework
+                        PHP seperti Laravel dan CodeIgniter, dan juga memiliki pengetahuan dasar Golang. Saya telah
+                        bersertifikasi BNSP sebagai Junior Web Programmer, dan terus mengikuti perkembangan tren serta best
+                        practice terbaru dalam dunia web development.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="certification-section">
+            <div class="certification-container">
+                <h2 class="section-title">Sertifikasi Keahlian</h2>
+
+                <div class="certification-grid">
+                    <div class="certification-card">
+                        <div class="certification-main">
+                            <div class="certification-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="certification-info">
+                                <h3>Junior Web Programmer</h3>
+                                <p class="certification-issuer">Sertifikasi Kompetensi (BNSP)</p>
+                                <p class="certification-year">2026-2029</p>
+                            </div>
+                        </div>
+                        
+                        <div class="certification-photo">
+                            <img src="assets/images/suratlsp.jpg"
+                                alt="Sertifikat Junior Web Programmer" class="lightbox-trigger"
+                                onerror="this.parentElement.classList.add('is-empty'); this.remove();">
+                           
+                                <code>assets/images/sertifikat-junior-web-programmer.jpg</code>
+                       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internship Experience -->
+        <section class="experience-section">
+            <div class="experience-container">
+                <h2 class="section-title">Pengalaman Magang</h2>
+
+                <div class="timeline">
+                                      <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>WEB DEVELOPER</h3>
+                            <p class="timeline-company">CV. OTW Computer Guasaha</p>
+                            <p class="timeline-period">2025</p>
+                            <p>Merancang bangun website pembayaran tagihan sekolah dengan integrasi payment
+gateway. Kegiatan dimulai dari pengumpulan dan analisis kebutuhan, perancangan alur sistem, pembuatan desain UI/UX
+menggunakan Figma, hingga implementasi website menggunakan HTML, CSS, JavaScript, dan CodeIgniter 4.
+Mengembangkan fitur login, dashboard admin dan siswa, pengelolaan data siswa dan tagihan, pembayaran, riwayat transaksi,
+serta integrasi payment gateway Midtrans.</p>
+
+                            <div class="certification-photo">
+                                <img src="assets/images/sertifmagang.jpg" alt="Sertifikat Magang"
+                                    class="lightbox-trigger"
+                                    onerror="this.parentElement.classList.add('is-empty'); this.remove();">
+                                     <code>assets/images/sertifikat-magang.jpg</code>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Timeline -->
+        <section class="experience-section">
+            <div class="experience-container">
+                <h2 class="section-title">Pengalaman Organisasi</h2>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Ketua IPPNU Dusun Kradenan</h3>
+                            <p class="timeline-period">2020 - 2023</p>
+                            <p>Memimpin dan bertanggung jawab atas pelaksanaan program kerja organisasi</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Komandan KPP DKAC Kecataman Sarirejo</h3>
+                            <p class="timeline-period">2020 - 2022</p>
+                            <p>Memimpin kegiatan organisasi CBP-KPP di tingkat kecamatan.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Bendahara PAC IPPNU Kecamatan Sarirejo</h3>
+                            <p class="timeline-period">2022 - 2024</p>
+                            <p>Mengelola keuangan organisasi secara transparan dan akuntabel</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Anggota Humas Himatifta Untag Surabaya </h3>
+                            <p class="timeline-period">2023 - 2024</p>
+                            <p>Membuat dan menyebarluaskan informasi kegiatan Himatifta melalui berbagai media sosial.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Kadiv Humas Himatifta Untag Surabaya </h3>
+                            <p class="timeline-period">2024 - 2025</p>
+                            <p>Mengoordinasikan, mengatur, dan mengawasi kerja Divisi Humas sekaligus memastikan
+                                informasi kegiatan tersampaikan dengan baik.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Pemangku Adat PI UKM Pramuka Untag Surabaya</h3>
+                            <p class="timeline-period">2024-2025</p>
+                            <p>Mengawasi pelaksanaan tata tradisi, dan mengelola jalannya upacara adat dalam Ambalan
+                                Pramuka Penegak putri.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Wakil Ketua PAC IPPNU Kecamatan Sarirejo</h3>
+                            <p class="timeline-period">2024-2026</p>
+                            <p>Membantu Ketua dalam mengoordinasikan kegiatan dan program kerja organisasi serta
+                                memastikan pelaksanaannya berjalan dengan baik.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="education-section">
+            <div class="education-container">
+                <h2 class="section-title">Pendidikan</h2>
+
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>MTsN Gresik</h3>
+                        <p class="education-year">2016 - 2019</p>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Ilmu Pengetahuan Alam</h3>
+                        <p class="education-school">MAN 2 Gresik</p>
+                        <p class="education-year">2019 - 2022</p>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>S1 Teknik Informatika</h3>
+                        <p class="education-school">UNTAG Surabaya</p>
+                        <p class="education-year">2022 - 2026</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox: popup untuk lihat foto sertifikat secara penuh -->
+    <div class="lightbox-overlay" id="lightboxOverlay">
+        <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Tutup">
+            <i class="fas fa-times"></i>
+        </button>
+        <img src="" alt="Sertifikat" class="lightbox-img" id="lightboxImg">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 Portofolio Saya</p>
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://instagram.com/mmilmilatul_" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
